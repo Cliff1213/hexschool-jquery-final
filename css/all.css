@@ -119,6 +119,7 @@ body {
     position: sticky;
     top: 0;
     border-bottom: 1px solid #ddd;
+    z-index: 10;
 }
 .navbar li {
     margin: 0 10px;
@@ -140,13 +141,13 @@ body {
     position: relative;
     height: 346px;
 }
-.banner {
+.swiper-title {
     position: absolute;
-    top: 25%;
+    top: calc((346px - 166px)/2);
     z-index: 1;
     width: 100%;
 }
-.banner h1 {
+.swiper-title h1 {
     padding: 36px 20px;
     background: rgba(0,0,0,.2);
     line-height: 1.3;
@@ -157,6 +158,7 @@ body {
     text-align: justify;
     box-shadow: 1px 2px 6px #ccc;
     padding: 20px;
+    margin-top: 60px;
     line-height: 1.5;
 }
 .course-img {
