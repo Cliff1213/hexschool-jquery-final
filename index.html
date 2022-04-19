@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="六角學院 html,css 最終作業">
+
+    <meta property="og:title" content="FB的標題">
+    <meta property="og:description" content="FB的描述">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="FB的圖片">
+    
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+
+    <title>Hexschool html 最終作業</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div class="container m-auto">
+
+        <ul class="topbar d-flex j-c-flex-end a-i-center bg-gray">
+            <li class="topbar-facebook">
+                <a class="d-flex a-i-center fs-sm" href="#">
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/facebookIcon.png"
+                        alt="icon_facebook">
+                    <p>粉絲團</p>
+                </a>
+            </li>
+
+            <li class="topbar-twitter">
+                <a class="d-flex a-i-center fs-sm" href="#">
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/twitterIcon.png"
+                        alt="icon_twitter">
+                    <p>追隨我們</p>
+                </a>
+            </li>
+        </ul>
+
+        
+        <nav class="navbar bg-white d-flex j-c-space-between a-i-center">
+            <a href="#" class="logo"><img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png"
+                alt="logo_hexschool">
+            </a>
+            
+            <ul class="d-flex fs-sm">
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">產品介紹</a></li>
+                <li><a href="#">聯絡我們</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- <header class="header">
+            <div class="banner d-flex a-i-center fs-xl text-bold text-white mb-section">
+                <h1 class="w-100">六角學院<br>讓您奠定良好的前端基礎</h1>
+            </div>
+        </header> -->
+
+        <header class="header">
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png" alt="img_banner-1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://raw.githubusercontent.com/Cliff1213/hexschool-html-css-final2/master/images/banner_index.png" alt="img_banner-2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://raw.githubusercontent.com/Cliff1213/hexschool-html-css-final2/master/images/banner_course.png" alt="img_banner-3">
+                    </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <div class="banner d-flex a-i-center fs-xl text-bold text-white mb-section">
+                    <h1 class="w-100">六角學院<br>讓您奠定良好的前端基礎</h1>
+                </div>
+                
+            </div>
+
+            <!-- <div class="banner d-flex a-i-center fs-xl text-bold text-white mb-section">
+                <h1 class="w-100">六角學院<br>讓您奠定良好的前端基礎</h1>
+            </div> -->
+        </header>
+
+
+        <ul class="course d-flex j-c-space-around px-2 mb-section">
+            <li class="course-item radius">
+                <div class="course-img d-flex j-c-center a-i-center">
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png"
+                        alt="course_html">
+                </div>
+                <h3 class="text-center text-bold fs-md">HTML 5 基礎教學</h3>
+                <p class="fs-sm">主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
+            </li>
+
+            <li class="course-item radius">
+                <div class="course-img d-flex j-c-center a-i-center">
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png"
+                        alt="course_rwd">
+                </div>
+                <h3 class="text-center text-bold fs-md">響應式網站設計</h3>
+                <p class="fs-sm">響應式網站設計（Responsive web
+                    design），目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
+            </li>
+
+            <li class="course-item radius">
+                <div class="course-img d-flex j-c-center a-i-center">
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png"
+                        alt="course_jquery">
+                </div>
+                <h3 class="text-center text-bold fs-md">jQuery 實戰教學</h3>
+                <ul class="fs-sm">
+                    <p>本課程有以下特色</p>
+                    <li>瞭解變數的使用方法</li>
+                    <li>習並操作DOM</li>
+                    <li>學習基本數學運算方法</li>
+                    <li>套件的操作及運用</li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <div class="compare mb-section">
+            <h2 class="text-center text-bold fs-lg mb-title">線上及實體課程的差異</h2>
+            <table class="m-auto fs-sm">
+                <tr class="text-bold bg-gray">
+                    <th>項目</th>
+                    <th>Hex School 線上課程</th>
+                    <th>一般線上課程</th>
+                    <th>實體課程</th>
+                </tr>
+                <tr>
+                    <td>費用</td>
+                    <td class="text-green">較低</td>
+                    <td class="text-green">較低</td>
+                    <td>較高</td>
+                </tr>
+                <tr>
+                    <td>學習效果</td>
+                    <td>一般</td>
+                    <td class="text-green">較低</td>
+                    <td class="text-green">很好</td>
+                </tr>
+                <tr>
+                    <td>Code review</td>
+                    <td class="text-green">有</td>
+                    <td>無</td>
+                    <td>不一定</td>
+                </tr>
+                <tr>
+                    <td>課程更新速度</td>
+                    <td class="text-green">普通</td>
+                    <td class="text-green">普通</td>
+                    <td>較慢</td>
+                </tr>
+                <tr>
+                    <td>多次複習</td>
+                    <td class="text-green">可</td>
+                    <td>可</td>
+                    <td>不可</td>
+                </tr>
+                <tr>
+                    <td>字幕</td>
+                    <td class="text-green">有</td>
+                    <td>不一定</td>
+                    <td>板書</td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="contact">
+            <h2 class="text-center text-bold text-white fs-lg mb-title">對我們課程有興趣嗎？<br>歡迎留下您的資料</h2>
+            <form action="#">
+                <ul class="d-flex j-c-space-between text-white fs-sm">
+                    <li class="contact-msg">
+                        <textarea class="w-100 h-100 radius border-none" name="" id=""
+                            placeholder="請輸入想要留言的內容"></textarea>
+                    </li>
+
+                    <li class="contact-info d-flex flex-column">
+                        <label for="name">姓名</label>
+                        <input class="radius border-none mb-content" type="text" id="name" name="name">
+
+                        <label for="phone">電話</label>
+                        <input class="radius border-none mb-content" type="tel" id="phone" name="tel">
+
+                        <label for="email">信箱</label>
+                        <input class="radius border-none mb-content" type="email" id="email" name="email">
+
+                        <div class="d-flex j-c-flex-end">
+                            <input class="contact-btn radius text-white border-none" type="submit" value="送出">
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+
+        <footer class="footer fs-sm d-flex j-c-space-between a-i-center">
+            <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/footerLogo.png"
+                alt="logo_hexschool">
+            <ul>
+                <li>聯絡我們：<a class="text-pink" href="mailto:hexschool@gmail.com">hexschool@gmail.com</a></li>
+                <li>電　　話：<a class="text-pink" href="tel:+0999123456">0999123456</a></li>
+            </ul>
+        </footer>
+
+        <!-- 可惡，肚子好餓 -->
+
+        <a class="back-to-top" href="#">
+            <img src="images/arrow-up.png" alt="icon_up-arrow">
+        </a>
+
+    </div>
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/lightbox2/dist/js/lightbox.js"></script>
+    <script src="/node_modules/swiper/swiper-bundle.js"></script>
+    <script src="/js/all.js"></script>
+</body>
+</html>
