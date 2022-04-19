@@ -10,13 +10,16 @@ $('document').ready(function() {
         // Optional parameters
         direction: 'horizontal',
         loop: true,
-        autoplay: {
-            delay: 3000,
-        },
     
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
+        },
+
+        autoplay: {
+            // ?新手不會看官方文檔最好是知道點擊後中斷輪播效果的問題在這裡...
+            disableOnInteraction: false,
+            delay: 3000,
         },
     });
 })
