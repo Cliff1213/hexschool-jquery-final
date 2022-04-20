@@ -1,10 +1,4 @@
 $('document').ready(function() {
-    $('.back-to-top').click(function(e) {
-        e.preventDefault();
-
-        $('html, body').animate({ scrollTop: 0 }, 300);
-    })
-
     // swiper
     const swiper = new Swiper('.swiper', {
         // Optional parameters
@@ -24,4 +18,16 @@ $('document').ready(function() {
     });
 
     // lightbox
+    lightbox.option({
+        'resizeDuration': 1200,
+        'wrapAround': true
+    })
+
+    // back2top
+    $('.back-to-top').click(function(e) {
+        e.preventDefault();
+
+        $('html, body').animate({ scrollTop: 0 }, 300);
+    })
+    
 })

@@ -65,6 +65,9 @@ body {
 .text-bold {
     font-weight: bold;
 }
+.text-black {
+    color: #000;
+}
 .text-white {
     color: #fff;
 }
@@ -170,6 +173,10 @@ body {
     margin-left: 21px;
 }
 
+.lb-dataContainer {
+    display: none !important;
+}
+
 .compare table {
     width: 840px;
 }
@@ -181,6 +188,7 @@ body {
     padding: 12px 0 12px 24px;
     text-align: left;
 }
+
 
 .contact {
     background: -webkit-linear-gradient(top, #00644b, #009872);
