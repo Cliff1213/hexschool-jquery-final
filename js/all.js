@@ -23,11 +23,25 @@ $('document').ready(function() {
         'wrapAround': true
     })
 
+    // navbar slideDown
+    $('.navbar-products > a').click(function(e) {
+        e.preventDefault();
+
+        $('.navbar-products ul').slideToggle(300);
+        $('.navbar-products-btn').toggleClass('active');
+    })
+
+    // scroll to footer-contact
+    $('.navbar-contact-btn').click(function(e){
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: $('#contact').offset().top}, 300);
+    });
+
     // back2top
     $('.back-to-top').click(function(e) {
         e.preventDefault();
 
         $('html, body').animate({ scrollTop: 0 }, 300);
     })
-    
+
 })

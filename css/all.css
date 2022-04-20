@@ -138,6 +138,36 @@ body {
     border-bottom: 3px solid #00cc99;
     background: -webkit-linear-gradient(bottom, #d7fff5, #fff);
 }
+.navbar-products {
+    position: relative;
+}
+.active {
+    border-bottom: 3px solid #00cc99;
+    background: -webkit-linear-gradient(bottom, #d7fff5, #fff);
+}
+.navbar-products ul {
+    position: absolute;
+    top: 39px;
+    right: 0px;
+}
+.navbar-products li {
+    margin: 0;
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+.navbar-products li a {
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.navbar-products li a:hover {
+    border: none;
+    background: #d7fff5;
+}
+
 .swiper {
     position: relative;
     height: 346px;
@@ -158,9 +188,17 @@ body {
     width: 300px;
     text-align: justify;
     box-shadow: 1px 2px 6px #ccc;
-    padding: 20px;
+    /* padding: 20px; */
     margin-top: 60px;
     line-height: 1.5;
+}
+.course-item:hover {
+    background: #d7fff588;
+}
+
+.course-item a {
+    display: block;
+    padding: 20px;
 }
 
 .course-img {
