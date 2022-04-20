@@ -11,6 +11,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.d-none {
+    display: none;
+}
 .d-flex {
     display: flex;
 }
@@ -132,11 +135,6 @@ body {
     border-bottom: 3px solid #00cc99;
     background: -webkit-linear-gradient(bottom, #d7fff5, #fff);
 }
-/* .banner {
-    background: url('https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png') no-repeat;
-    padding: 96px 0;
-    height: 346px;
-} */
 .swiper {
     position: relative;
     height: 346px;
@@ -161,6 +159,7 @@ body {
     margin-top: 60px;
     line-height: 1.5;
 }
+
 .course-img {
     height: 135px;
     margin-bottom: 8px;

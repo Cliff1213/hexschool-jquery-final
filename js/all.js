@@ -17,9 +17,11 @@ $('document').ready(function() {
         },
 
         autoplay: {
-            // ?新手不會看官方文檔最好是知道點擊後中斷輪播效果的問題在這裡...
+            // ?誰會知道點擊後中斷輪播效果的問題在這裡啦...
             disableOnInteraction: false,
             delay: 3000,
         },
     });
+
+    // lightbox
 })
