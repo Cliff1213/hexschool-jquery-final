@@ -11,13 +11,13 @@ $('document').ready(function() {
         },
 
         autoplay: {
-            // ?誰會知道點擊後中斷輪播效果的問題在這裡啦...
+            // ? 取消點擊後中斷輪播效果
             disableOnInteraction: false,
             delay: 3000,
         },
     });
 
-    // lightbox
+    // lightbox // ? 一整個意義不明
     lightbox.option({
         'resizeDuration': 1200,
         'wrapAround': true
